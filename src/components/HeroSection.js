@@ -18,7 +18,12 @@ const HeroSection = () => {
 
 const styles = {
   heroContainer: {
-    background: 'url(${carouselImage}) center center/cover',
+    // background: 'url(${carouselImage}) center center/cover',
+    background: 'url(../assets/img/carousel-1.jpg)',
+    backgroundPosition: 'center center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+
     color: 'white',
     padding: '100px 0',
     textAlign: 'center',
