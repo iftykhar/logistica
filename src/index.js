@@ -10,6 +10,9 @@ import AboutSection from './components/AboutSection';
 import FactSection from './components/FactSection';
 import PricingPlans from './components/PricingPlans';
 import Feature from './components/Feature';
+import FreightCards from './components/FreightCard';
+import Ourservice from './components/Ourservice';
+import QuoteRequest from './components/QuoteRequest';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,9 +23,13 @@ root.render(
     {/* <Statssection /> */}
     <AboutSection />
     <FactSection />
+    <Ourservice />
+    <FreightCards />
+    <FreightCards />
     {/* <App /> */}
     <Feature />
     <PricingPlans />
+    <QuoteRequest />
   </React.StrictMode>
 );
 
