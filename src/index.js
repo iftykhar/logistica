@@ -8,6 +8,8 @@ import HeroSection from './components/HeroSection';
 // import Statssection from './components/Statssection';
 import AboutSection from './components/AboutSection';
 import FactSection from './components/FactSection';
+import PricingPlans from './components/PricingPlans';
+import Feature from './components/Feature';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +21,8 @@ root.render(
     <AboutSection />
     <FactSection />
     {/* <App /> */}
+    <Feature />
+    <PricingPlans />
   </React.StrictMode>
 );
 
