@@ -15,6 +15,7 @@ import Ourservice from './components/Ourservice';
 import QuoteRequest from './components/QuoteRequest';
 import TeamSection from './components/TeamSection';
 import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,6 +35,7 @@ root.render(
     <QuoteRequest />
     <TeamSection />
     <Testimonial />
+    <Footer />
   </React.StrictMode>
 );
 
