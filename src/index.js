@@ -13,6 +13,8 @@ import Feature from './components/Feature';
 import FreightCards from './components/FreightCard';
 import Ourservice from './components/Ourservice';
 import QuoteRequest from './components/QuoteRequest';
+import TeamSection from './components/TeamSection';
+import Testimonial from './components/Testimonial';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +32,8 @@ root.render(
     <Feature />
     <PricingPlans />
     <QuoteRequest />
+    <TeamSection />
+    <Testimonial />
   </React.StrictMode>
 );
 
