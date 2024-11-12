@@ -5,8 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-import Statssection from './components/Statssection';
+// import Statssection from './components/Statssection';
 import AboutSection from './components/AboutSection';
+import FactSection from './components/FactSection';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,8 +15,9 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <HeroSection />
-    <Statssection />
+    {/* <Statssection /> */}
     <AboutSection />
+    <FactSection />
     {/* <App /> */}
   </React.StrictMode>
 );

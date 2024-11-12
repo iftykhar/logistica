@@ -8,13 +8,14 @@ const AboutSection = () => {
             <img src="#"  alt="Logistics handling" style={styles.image} />
         </div>
       <div style={styles.textContainer}>
+        <h3 style={{ color:'skyblue' }}> ABOUT US </h3>
         <h2 style={styles.title}>Quick Transport and Logistics Solutions</h2>
         <p style={styles.description}>
           We offer fast, efficient, and reliable transport and logistics solutions. Our team ensures that your shipments arrive safely and on time, no matter the destination.
         </p>
         <div>
           <button style={styles.buttonPrimary}>Learn More</button>
-          <button style={styles.buttonSecondary}>Our Services</button>
+          {/* <button style={styles.buttonSecondary}>Our Services</button> */}
         </div>
       </div>
       
